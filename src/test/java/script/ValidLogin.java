@@ -14,8 +14,8 @@ public class ValidLogin extends BaseTest
 {
 	@Test(priority = 1)
 	public void testValidLogin() {
-		String un=Excel.getCellData(INPUTXL_PATH, "ValidLogin",1, 0);
-		String pw=Excel.getCellData(INPUTXL_PATH, "ValidLogin",1, 1);
+		String un=Excel.getCellData(INPUTTXL_PATH, "ValidLogin",1, 0);
+		String pw=Excel.getCellData(INPUTTXL_PATH, "ValidLogin",1, 1);
 		
 //		1. Enter valid user name
 		LoginPage loginPage=new LoginPage(driver);
