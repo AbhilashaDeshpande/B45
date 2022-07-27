@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 25 08:22:24 IST 2022</td>
+<td>Started on:</td><td>Tue Jul 26 16:03:55 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17388 ms)</td>
+<tr><td>Total time:</td><td>55 seconds (55215 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='script.TestClass2.testLogin()'><b>testLogin</b><br>Test class: script.TestClass2</td>
-<td><div><pre>java.lang.AssertionError: null
+<td title='script.InValidLogin.testInValidLogin()'><b>testInValidLogin</b><br>Test class: script.InValidLogin</td>
+<td><div><pre>java.lang.AssertionError: Home Page is not Displayed expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at script.TestClass2.testLogin(TestClass2.java:19)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at script.InValidLogin.testInValidLogin(InValidLogin.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,11 +106,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1780306540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1780306540'><pre>java.lang.AssertionError: null
+</pre></div><a href='#' onClick='toggleBox("stack-trace1667348377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1667348377'><pre>java.lang.AssertionError: Home Page is not Displayed expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at script.TestClass2.testLogin(TestClass2.java:19)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at script.InValidLogin.testInValidLogin(InValidLogin.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -136,21 +138,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>script.TestClass2@15713d56</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='script.TestClass1.testA()'><b>testA</b><br>Test class: script.TestClass1</td>
-<td></td>
-<td>0</td>
-<td>script.TestClass1@63f259c3</td></tr>
+<td>20</td>
+<td>script.InValidLogin@7a67e3c6</td></tr>
 </table><p>
 </body>
 </html>
